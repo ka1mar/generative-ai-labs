@@ -12,7 +12,7 @@ A collection of labs exploring core generative AI techniques. Several architectu
 | [`vae_face_generation.ipynb`](vae_face_generation.ipynb) | Face generation with VAE & CVAE from scratch | FID 4.37, conditional generation by gender |
 | [`car_color_classification_cnn.ipynb`](car_color_classification_cnn.ipynb) | Car color classification (ResNet-34 from scratch) | Val F1_macro 0.81, 14 classes |
 | [`yolov8_road_sign_segmentation_tracking.ipynb`](yolov8_road_sign_segmentation_tracking.ipynb) | Road sign segmentation & tracking | mAP50 0.91 (box), BotSort tracking |
-| [`stable_diffusion_inpainting.ipynb`](stable_diffusion_inpainting.ipynb) | SD inpainting & ControlNet + Canny | Mask-type comparison, edge-guided generation |
+| [`sd_inpainting_v15.ipynb`](sd_inpainting_v15.ipynb), [`sd_inpainting_kandinsky.ipynb`](sd_inpainting_kandinsky.ipynb), [`sd_inpainting_controlnet.ipynb`](sd_inpainting_controlnet.ipynb) | SD inpainting & ControlNet + Canny | Mask-type comparison, edge-guided generation |
 
 ---
 
@@ -146,7 +146,7 @@ Fine-tuned YOLOv8n-seg on a custom Russian road sign dataset and applied BotSort
 
 ## Stable Diffusion Inpainting & ControlNet + Canny
 
-**Notebook:** [`stable_diffusion_inpainting.ipynb`](stable_diffusion_inpainting.ipynb)
+**Notebooks:** [`sd_inpainting_v15.ipynb`](sd_inpainting_v15.ipynb), [`sd_inpainting_kandinsky.ipynb`](sd_inpainting_kandinsky.ipynb), [`sd_inpainting_controlnet.ipynb`](sd_inpainting_controlnet.ipynb)
 
 **Part 1 — Inpainting.** Explored prompt-guided inpainting with SD v1.5 using various mask types (small square, long thin, large area) on real photos.
 
@@ -163,7 +163,7 @@ Fine-tuned YOLOv8n-seg on a custom Russian road sign dataset and applied BotSort
 **Inpainting:**
 <p align="center">
   <img src="images/task_diffusion_cell3_33.png" width="90%"/>
-   <img src="images/task_diffusion_cell3_43.png" width="90%"/>
+   <img src="images/sd_inpainting_kandinsky_cell2_11.png" width="90%"/>
 </p>
 
 **ControlNet:**
